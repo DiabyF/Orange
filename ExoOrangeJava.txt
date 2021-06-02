@@ -1,0 +1,305 @@
+EXERCICE: #101# Orange
+
+Java:
+
+package exercice;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author HP
+ */
+public class Exercice {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        int i, r;
+        int code;
+        System.out.println(" 1- Séwa Koura");
+        System.out.println(" 2- Forfait Internet");
+        System.out.println(" 3- Infos et loisirs");
+        System.out.println(" 4- Mon compte");
+        System.out.println(" 5- Sira Teliman");
+        System.out.println(" 6- Offres et promos orange");
+        System.out.println(" 7- Forfait Ne Taa");
+        System.out.println(" 8- Forfait prepayer");
+        
+        i=sc.nextInt();
+        System.out.println("_________________________");
+        if (i==1){
+            System.out.println(" 1- 250f: 10mn+10sms+10 Mo, Val 1j");
+            System.out.println(" 2- 500f: 25mn+80sms+80 Mo,Val 2j");
+            System.out.println(" 3- 500f: 20mn+50sms+50 Mo,Val 3j");
+            System.out.println(" 4- 1000f: 60mn+100sms+100 Mo,Val 4j");
+            System.out.println(" 5- 1000f: 60mn+100sms+100 Mo,Val 4j");
+            System.out.println("---");
+            System.out.println("00-menu");
+            System.out.println("0-retour");
+                r=sc.nextInt();
+                System.out.println("_________________________");
+                if (r ==1){
+                    System.out.println("Vous allez acheter un forfait de 10min d'émission d'appel + 10SMS + 10Mo à 250 FCFA.");
+                    System.out.println("1- Confirmer");
+                    System.out.println("2- Payer avec Orange Money");
+                    System.out.println("---");
+                    System.out.println("00-menu");
+                    System.out.println("0-retour");
+                        r=sc.nextInt();
+                        System.out.println("_________________________");
+                        if (r==1){
+                         System.out.println("Achat du forfait Sewa effectué avec succès");
+                            }
+                            else if (r==2){
+                                System.out.println("Vous allez acheter un forfait de 10min d'émission d'appel + 10SMS + 10Mo à 250 FCFA.");
+                                System.out.println("Entrez votre code secret pour confirmer le paiement ou 2 pour annuler.");
+                                code=sc.nextInt();
+                                System.out.println("_________________________");
+                                System.out.println("Achat du forfait Sewa effectué avec succès");}
+                            else{
+                            System.out.println("ERREUR DE CODE");}
+                       
+                }
+        }
+            else if (i==2){
+                System.out.println(" 1- Achat de forfait");
+                System.out.println(" 2- Suivi conso");
+                System.out.println(" 3- Acheter un forfait pour un tiers");
+                System.out.println(" 4- La fibre Orange");
+                System.out.println(" 5- Gestion de ma Sobox");
+                System.out.println(" 6- YIRIWA FIBRE");
+                System.out.println("---");
+                System.out.println("00-menu");
+                System.out.println("0-retour");
+                r=sc.nextInt();
+                System.out.println("_________________________");
+                if (r ==1){
+                    System.out.println("1- Achat de forfait");
+                    System.out.println("2- Suivi conso");
+                    System.out.println("3- Acheter un forfait pour un tiers");
+                    System.out.println("4- la fibre Orange");
+                    System.out.println("---");
+                    System.out.println("00-menu");
+                    System.out.println("0-retour");
+                        r=sc.nextInt();
+                        System.out.println("_________________________");
+                        if (r==1){
+                            System.out.println("1- Internet Mobile");
+                            r=sc.nextInt();
+                            System.out.println("_________________________");
+                                if (r==1){
+                                    System.out.println("1- Pass Jours");
+                                    r=sc.nextInt();
+                                    System.out.println("_________________________");
+                                        if (r==1){
+                                            System.out.println("1- 20Mo à 100 F valable 4jours");
+                                            r=sc.nextInt();
+                                            System.out.println("_________________________");
+                                                if (r==1){
+                                                System.out.println("Achat effectuer avec succès");   
+                                                }
+                                        }
+                                }
+                                }
+                            }
+                            else{
+                            System.out.println("ERREUR DE CODE");}
+                
+            }
+                else if(i==3){
+                    System.out.println(" 1- Fun");
+                    System.out.println(" 2- Weletones");
+                    System.out.println(" 3- Actualité");
+                    System.out.println(" 4- Religion");
+                    System.out.println(" 5- Conseils et Astuces");
+                    System.out.println(" 6- Orange Football Club");
+                    System.out.println(" 7- Education");
+                    System.out.println(" 8- Yotta");
+                    System.out.println(" 9- Megawin");
+                    System.out.println("---");
+                    System.out.println("00-menu");
+                    System.out.println("0-retour");
+                    r=sc.nextInt();
+                    System.out.println("_________________________");
+                    if (r ==1){
+                        System.out.println("1- Fun  ");
+                        System.out.println("2- Weletones");
+                        System.out.println("3- Actualité");
+                        System.out.println("4- Religion");
+                        System.out.println("---");
+                        System.out.println("00-menu");
+                        System.out.println("0-retour");
+                            r=sc.nextInt();
+                            System.out.println("_________________________");
+                            if (r==1){
+                                System.out.println("1- Célébrité");
+                                r=sc.nextInt();
+                                System.out.println("_________________________");
+                                    if (r==1){
+                                        System.out.println("Bienvenue sur le service celebrite. Veuillez choisir une option");
+                                        System.out.println("1- Comedie");
+                                        r=sc.nextInt();
+                                        System.out.println("_________________________");
+                                            if (r==1){
+                                                System.out.println("1- Gohou Michel");
+                                                r=sc.nextInt();
+                                                System.out.println("_________________________");
+                                                    if (r==1){
+                                                    System.out.println("Fun activer avec succès");   
+                                                    }
+                                            }
+                                    }
+                                    }
+                                }
+                                else{
+                                System.out.println("ERREUR DE CODE");}
+                }
+                    else if (i==4){
+                        System.out.println(" 1- Recharge");
+                        System.out.println(" 2- Transfert de credit");
+                        System.out.println(" 3- Recharge Ligne fixe Sobox Fibre");
+                        System.out.println(" 4- Bip");
+                        System.out.println(" 5- Mon compte");
+                        System.out.println(" 6- Suivi conso");
+                        System.out.println(" 7- Self CA");
+                        System.out.println(" 8- C MOI");
+                        System.out.println(" 9- Ma boite vocale");
+                        System.out.println(" 10- Derniers appels");
+                        System.out.println("---");
+                        System.out.println("00-menu");
+                        System.out.println("0-retour");
+                        r=sc.nextInt();
+                        System.out.println("_________________________");
+                        if (r ==1){
+                            System.out.println("1- Recharge  ");
+                            System.out.println("---");
+                            System.out.println("00-menu");
+                            System.out.println("0-retour");
+                                r=sc.nextInt();
+                                System.out.println("_________________________");
+                                if (r==1){
+                                    System.out.println("Saisir les 14 chiffres de la carte");
+                                    r=sc.nextInt();
+                                    System.out.println("_________________________");
+                                    System.out.println("Recharge effectuer avec succès");
+                                    }
+                                    }
+                        else{
+                        System.out.println("ERREUR DE CODE");}
+                    }
+                        else if (i==5){
+                            System.out.println(" 1- Orange Fidelité #140#");
+                            System.out.println(" 2- Roaming Prépayés #100#");
+                            System.out.println(" 3- Roaming Postpayés #300#");
+                            System.out.println(" 4- Orange Money #144#");
+                            System.out.println("---");
+                            System.out.println("00-menu");
+                            System.out.println("0-retour");
+                            r=sc.nextInt();
+                            System.out.println("_________________________");
+                            if (r==1){
+                            System.out.println("Bienvenue sur orange fidelité");
+                            System.out.println("1- Consultant de points");
+                            System.out.println("---");
+                            System.out.println("00-menu");
+                            r=sc.nextInt();
+                            System.out.println("_________________________");
+                                if (r==1){
+                                    System.out.println("1- Consultation de points cadeaux");
+                                    r=sc.nextInt();
+                                    System.out.println("Vous avez XXXXX points valabes jusqu'au 08/03/2022");
+                                    }
+                            }
+                        else{
+                        System.out.println("ERREUR DE CODE");}
+                        }
+                            else if (i==6){
+                                System.out.println(" 1-Promo illimite");
+                                System.out.println(" 2- Forfait S'cool");
+                                System.out.println(" 3- Forfait Sewa");
+                                System.out.println(" 4- Forfait sms");
+                                System.out.println(" 5- Forfait Appels Orange");
+                                System.out.println(" 6- Forfait Internationnal");
+                                System.out.println(" 7- Forfait Fidélité");
+                                System.out.println("---");
+                                System.out.println("00-menu");
+                                System.out.println("0-retour");
+                                r=sc.nextInt();
+                                System.out.println("_________________________");
+                            if (r ==1){
+                                System.out.println("1- Illimité  ");
+                                System.out.println("---");
+                                System.out.println("00-menu");
+                                System.out.println("0-retour");
+                                    r=sc.nextInt();
+                                    System.out.println("_________________________");
+                                    if (r==1){
+                                        System.out.println("1- illimité sms et forfait");
+                                        r=sc.nextInt();
+                                        System.out.println("_________________________");
+                                        System.out.println("Nous ne sommes pas actuellement en promo, Orange vous remercie");   
+                                    }
+                            }
+                            else{
+                            System.out.println("ERREUR DE CODE");}
+                            }
+                                else if (i==7){
+                                    System.out.println(" 1-500 FCFA");
+                                    System.out.println(" 2- 1000 FCFA");
+                                    System.out.println(" 3- 2000 FCFA");
+                                    System.out.println(" 4- 5000 FCFA");
+                                    System.out.println(" 5- Offrir un Né Taa");
+                                    System.out.println("---");
+                                    System.out.println("00-menu");
+                                    System.out.println("0-retour");
+                                    r=sc.nextInt();
+                                    System.out.println("_________________________");
+                                    if (r==1){
+                                    System.out.println("Bienvenue sur orange fidelité");
+                                    System.out.println("1- 500");
+                                    System.out.println("---");
+                                    System.out.println("00-menu");
+                                    r=sc.nextInt();
+                                    System.out.println("_________________________");
+                                        if (r==1){
+                                            System.out.println("Forfait activer avec succès");
+                                            }
+                                    }
+                                else{
+                                System.out.println("ERREUR DE CODE");}
+                                }
+                                    else if (i==8){
+                                        System.out.println(" 1-Forfait Mobiles prepayés");
+                                        System.out.println(" 2- Forfait Mobile S'cool");
+                                        System.out.println("---");
+                                        System.out.println("00-menu");
+                                        System.out.println("0-retour");
+                                        r=sc.nextInt();
+                                        System.out.println("_________________________");
+                                        if (r==1){
+                                        System.out.println("1- Forfait mobiles prepayés");
+                                        r=sc.nextInt();
+                                        System.out.println("_________________________");
+                                            if (r==1){
+                                            System.out.println("1- Forfait 9900F");
+                                            r=sc.nextInt();
+                                            System.out.println("_________________________");
+                                                if (r==1){
+                                                System.out.println("Cette operation va vous couter 9900F");
+                                                System.out.println("1- Confirmer");
+                                                r=sc.nextInt();
+                                                System.out.println("_________________________");
+                                                    if (r==1){
+                                                    System.out.println("Activer avec succès");}
+                                                }
+                                            }
+                                        }
+                                        else{
+                                        System.out.println("ERREUR DE CODE");}
+                                    }
+        
+    }
+}
